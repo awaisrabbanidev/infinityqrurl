@@ -176,3 +176,14 @@ if (typeof module !== 'undefined' && module.exports) {
         defaultSettings
     };
 }
+
+// Environment Variable Validation for Netlify
+if (environment.isNetlify && environment.isProduction) {
+  // Validate that environment variables are loaded
+  if (!window.ENV || !window.ENV.URL_SHORTENER_API_KEY || !window.ENV.QR_CODE_API_KEY) {
+    console.warn('⚠️ Netlify environment variables not properly loaded');
+    console.warn('🔧 Check build process and environment variable configuration');
+  } else {
+    console.log('✅ Netlify environment variables loaded successfully');
+  }
+}
