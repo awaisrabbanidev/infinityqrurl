@@ -134,11 +134,7 @@ class AuthRedirect {
                         </div>
                     </div>
 
-                    <!-- Adstara Banner 1 -->
-                    <div style="background: #1a1a1a; padding: 20px; border-radius: 8px; margin-bottom: 20px; text-align: center; border: 1px solid #333;">
-                        <p style="color: #00ff88; margin: 0;">Adstara Banner 728x90 - Dashboard Top</p>
-                        <small style="color: #ccc;">Position: Top of Dashboard</small>
-                    </div>
+                    
 
                     <!-- User Stats -->
                     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 30px;">
@@ -160,11 +156,7 @@ class AuthRedirect {
                         </div>
                     </div>
 
-                    <!-- Adstara Banner 2 -->
-                    <div style="background: #1a1a1a; padding: 20px; border-radius: 8px; margin-bottom: 20px; text-align: center; border: 1px solid #333;">
-                        <p style="color: #00ff88; margin: 0;">Adstara Banner 728x90 - Dashboard Middle</p>
-                        <small style="color: #ccc;">Position: Between Stats and Recent Links</small>
-                    </div>
+                   
 
                     <h3 style="color: #fff;">🔗 Recent Links</h3>
                     <div id="recentLinks" style="margin-bottom: 30px;">
@@ -176,11 +168,7 @@ class AuthRedirect {
                         <p style="color: #ccc; text-align: center; padding: 20px;">Loading recent QR codes...</p>
                     </div>
 
-                    <!-- Adstara Banner 3 -->
-                    <div style="background: #1a1a1a; padding: 20px; border-radius: 8px; margin-top: 30px; text-align: center; border: 1px solid #333;">
-                        <p style="color: #00ff88; margin: 0;">Adstara Banner 728x90 - Dashboard Bottom</p>
-                        <small style="color: #ccc;">Position: Bottom of Dashboard</small>
-                    </div>
+                   
                 </div>
             </div>
         `;
