@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions | InfinityQR URL - QR Code Generator & URL Shortener</title>
+    <meta name="description" content="Find answers to common questions about InfinityQR URL's QR code generator and URL shortener services. Learn how to create custom QR codes and shorten URLs effectively.">
+    <meta name="keywords" content="QR code FAQ, URL shortener FAQ, create QR code, dynamic QR code, custom QR code, free URL shortener, shorten links, QR code generator, URL shortening service">
+    <meta name="author" content="InfinityQR URL">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#4F46E5">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.infinityqrurl.com/faq/">
+    <meta property="og:title" content="Frequently Asked Questions | InfinityQR URL - QR Code Generator & URL Shortener">
+    <meta property="og:description" content="Find answers to common questions about InfinityQR URL's QR code generator and URL shortener services.">
+    <meta property="og:image" content="https://www.infinityqrurl.com/assets/images/og-image.jpg">
+
+    <!-- Twitter / X -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.infinityqrurl.com/faq/">
+    <meta property="twitter:title" content="Frequently Asked Questions | InfinityQR URL">
+    <meta property="twitter:description" content="Find answers to common questions about InfinityQR URL's QR code generator and URL shortener services.">
+    <meta property="twitter:image" content="https://www.infinityqrurl.com/assets/images/og-image.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.infinityqrurl.com/faq/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>∞</text></svg>">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Additional styles specific to FAQ page */
+        .faq-hero {
+            background: linear-gradient(135deg, #4F46E5 0%, #7C73E6 100%);
+            color: white;
+            padding: 100px 0 80px;
+            text-align: center;
+        }
+
+        .faq-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+        }
+
+        .faq-hero p {
+            font-size: 1.25rem;
+            max-width: 800px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+
+        .faq-content {
+            padding: 80px 0;
+        }
+
+        .faq-section {
+            margin-bottom: 60px;
+        }
+
+        .faq-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .faq-section h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: #1F2937;
+            text-align: center;
+        }
+
+        .faq-category {
+            background: #F9FAFB;
+            padding: 40px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+        }
+
+        .faq-category:last-child {
+            margin-bottom: 0;
+        }
+
+        .faq-category h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: #4F46E5;
+            border-bottom: 2px solid #E5E7EB;
+            padding-bottom: 10px;
+        }
+
+        .faq-item {
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid #E5E7EB;
+            padding-bottom: 1.5rem;
+        }
+
+        .faq-item:last-child {
+            margin-bottom: 0;
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .faq-question {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #1F2937;
+            margin-bottom: 0.75rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-question::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: #4F46E5;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-question::after {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #4B5563;
+            display: none;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, #4F46E5 0%, #7C73E6 100%);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+            border-radius: 12px;
+            margin-top: 60px;
+        }
+
+        .cta-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: white;
+        }
+
+        .cta-section p {
+            font-size: 1.25rem;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 768px) {
+            .faq-hero {
+                padding: 80px 0 60px;
+            }
+
+            .faq-hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .faq-hero p {
+                font-size: 1.125rem;
+            }
+
+            .faq-content {
+                padding: 60px 0;
+            }
+
+            .faq-section h2 {
+                font-size: 1.75rem;
+            }
+
+            .faq-category {
+                padding: 30px 20px;
+            }
+
+            .cta-section {
+                padding: 60px 20px;
+            }
+
+            .cta-section h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html" style="text-decoration: none; color: inherit;">
+                        <h1>∞ InfinityQR URL</h1>
+                    </a>
+                </div>
+
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#dashboard" class="nav-link">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="faq.html" class="nav-link active">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <button id="loginBtn" class="btn btn-secondary">Login</button>
+                    </li>
+                    <li class="nav-item">
+                        <button id="signupBtn" class="btn btn-primary">Sign Up</button>
+                    </li>
+                </ul>
+
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="faq-hero">
+            <div class="container">
+                <h1>Frequently Asked Questions (FAQ)</h1>
+                <p>Find answers to common questions about our QR code generator and URL shortener services</p>
+            </div>
+        </section>
+
+        <!-- FAQ Content -->
+        <section class="faq-content">
+            <div class="container">
+                <div class="faq-section">
+                    <h2>QR Code Generator FAQs</h2>
+                    
+                    <div class="faq-category">
+                        <h3>Creating QR Codes</h3>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">How do I create a QR code?</div>
+                            <div class="faq-answer">
+                                <p>It's simple! Use the free QR code generator. Select the type (e.g., URL, vCard), enter your information, and generate QR code. You can then download the QR code image as a PNG.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">What is a dynamic QR code?</div>
+                            <div class="faq-answer">
+                                <p>A dynamic QR code allows you to change the destination URL without changing the QR code itself. This is perfect for campaigns where the link might need updating, and it's a feature of our dynamic QR code generator.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">Can I make a custom QR code with my logo?</div>
+                            <div class="faq-answer">
+                                <p>Absolutely. The QR code generator with logo feature lets you create a QR code with logo in the center, enhancing brand recognition. You can also adjust colors for a white QR code or colorful QR design.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-category">
+                        <h3>QR Code Usage</h3>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">What types of QR codes can I create?</div>
+                            <div class="faq-answer">
+                                <p>Our QR code generator supports various types including URL codes, vCard contact codes, WiFi network codes, text codes, email codes, and SMS codes. This versatility makes it suitable for multiple applications.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">Are there limitations on QR code scans?</div>
+                            <div class="faq-answer">
+                                <p>No, there are no limitations on the number of scans for your QR codes. Both static and dynamic QR codes can be scanned unlimited times without any restrictions.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">Can I track QR code scans?</div>
+                            <div class="faq-answer">
+                                <p>Yes, with our dynamic QR codes, you can track scan statistics including the number of scans, location data, device types, and timestamps. This provides valuable insights for your marketing campaigns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-section">
+                    <h2>URL Shortener FAQs</h2>
+                    
+                    <div class="faq-category">
+                        <h3>Getting Started</h3>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">What is a URL shortener?</div>
+                            <div class="faq-answer">
+                                <p>A URL shortener is a tool that takes a long URL and creates a shortened link. This is useful for saving space on platforms like Twitter and for creating clean-looking links for print.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">Is this URL shortener free?</div>
+                            <div class="faq-answer">
+                                <p>Yes, a robust free URL shortener plan is available. For advanced features like custom URL shortener links and detailed analytics, premium plans are offered.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">How do I shorten a link?</div>
+                            <div class="faq-answer">
+                                <p>Paste your long link into the URL shortener tool on the website and click "Shorten." You will instantly receive a new, shortened URL to share.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-category">
+                        <h3>Advanced Features</h3>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">Can I create custom short URLs?</div>
+                            <div class="faq-answer">
+                                <p>Yes, our platform allows you to create custom aliases for your shortened URLs. This means you can choose a memorable, branded ending for your short links instead of random characters.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">What analytics are available for shortened URLs?</div>
+                            <div class="faq-answer">
+                                <p>Our URL shortener provides detailed analytics including click counts, geographic location of clicks, referral sources, device types, and timestamps. This data helps you understand your audience better.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">Do shortened URLs expire?</div>
+                            <div class="faq-answer">
+                                <p>No, shortened URLs created with our service do not expire. They will remain active and functional indefinitely, ensuring your links always work.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cta-section">
+                    <h2>Still Have Questions?</h2>
+                    <p>Can't find the answer you're looking for? Our support team is here to help you get the most out of our QR code generator and URL shortener.</p>
+                    <div class="cta-buttons">
+                        <a href="index.html#contact" class="btn btn-light">Contact Support</a>
+                        <a href="index.html" class="btn btn-outline-light">Back to Home</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>InfinityQR URL</h3>
+                    <p>Professional URL shortening and QR code generation for modern businesses.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="index.html#url-shortener">URL Shortener</a></li>
+                        <li><a href="index.html#qr-generator">QR Generator</a></li>
+                        <li><a href="index.html#dashboard">Dashboard</a></li>
+                        <li><a href="index.html#api">API</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#tutorials">Tutorials</a></li>
+                        <li><a href="#support">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 InfinityQR URL. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2>Login to Your Account</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" required>
+                </div>
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="rememberMe">
+                        <span class="checkmark"></span>
+                        Remember me
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Login</button>
+                <p class="auth-switch">
+                    Don't have an account? <a href="#" id="showSignup">Sign up</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2>Create Your Account</h2>
+            <form id="signupForm">
+                <div class="form-group">
+                    <label for="signupName">Full Name</label>
+                    <input type="text" id="signupName" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupEmail">Email</label>
+                    <input type="email" id="signupEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupPassword">Password</label>
+                    <input type="password" id="signupPassword" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Sign Up</button>
+                <p class="auth-switch">
+                    Already have an account? <a href="#" id="showLogin">Login</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="js/data-manager.js"></script>
+    <script src="js/auth-redirect.js"></script>
+    <script src="js/debug-fix.js"></script>
+
+    <script>
+        // FAQ toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // FAQ toggle
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const faqItem = this.parentElement;
+                    faqItem.classList.toggle('active');
+                });
+            });
+            
+            // Navigation toggle functionality
+            const navToggle = document.querySelector('.nav-toggle');
+            const navMenu = document.querySelector('.nav-menu');
+            
+            if (navToggle) {
+                navToggle.addEventListener('click', function() {
+                    navMenu.classList.toggle('active');
+                });
+            }
+            
+            // Modal functionality
+            const loginBtn = document.getElementById('loginBtn');
+            const signupBtn = document.getElementById('signupBtn');
+            const loginModal = document.getElementById('loginModal');
+            const signupModal = document.getElementById('signupModal');
+            const modalCloses = document.querySelectorAll('.modal-close');
+            const showSignup = document.getElementById('showSignup');
+            const showLogin = document.getElementById('showLogin');
+            
+            if (loginBtn) {
+                loginBtn.addEventListener('click', function() {
+                    loginModal.style.display = 'block';
+                });
+            }
+            
+            if (signupBtn) {
+                signupBtn.addEventListener('click', function() {
+                    signupModal.style.display = 'block';
+                });
+            }
+            
+            modalCloses.forEach(closeBtn => {
+                closeBtn.addEventListener('click', function() {
+                    loginModal.style.display = 'none';
+                    signupModal.style.display = 'none';
+                });
+            });
+            
+            if (showSignup) {
+                showSignup.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    loginModal.style.display = 'none';
+                    signupModal.style.display = 'block';
+                });
+            }
+            
+            if (showLogin) {
+                showLogin.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    signupModal.style.display = 'none';
+                    loginModal.style.display = 'block';
+                });
+            }
+            
+            // Close modal when clicking outside
+            window.addEventListener('click', function(e) {
+                if (e.target === loginModal) {
+                    loginModal.style.display = 'none';
+                }
+                if (e.target === signupModal) {
+                    signupModal.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
