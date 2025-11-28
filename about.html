@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | InfinityQR URL - Your All-in-One Link Management Platform</title>
+    <meta name="description" content="Learn about InfinityQR URL - the comprehensive link management platform offering QR code generation and URL shortening tools for businesses and individuals.">
+    <meta name="keywords" content="about InfinityQR URL, QR code generator, URL shortener, link management platform, digital sharing tools">
+    <meta name="author" content="InfinityQR URL">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#4F46E5">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.infinityqrurl.com/about/">
+    <meta property="og:title" content="About Us | InfinityQR URL - Your All-in-One Link Management Platform">
+    <meta property="og:description" content="Learn about InfinityQR URL - the comprehensive link management platform offering QR code generation and URL shortening tools.">
+    <meta property="og:image" content="https://www.infinityqrurl.com/assets/images/og-image.jpg">
+
+    <!-- Twitter / X -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.infinityqrurl.com/about/">
+    <meta property="twitter:title" content="About Us | InfinityQR URL">
+    <meta property="twitter:description" content="Learn about InfinityQR URL - the comprehensive link management platform offering QR code generation and URL shortening tools.">
+    <meta property="twitter:image" content="https://www.infinityqrurl.com/assets/images/og-image.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.infinityqrurl.com/about/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>∞</text></svg>">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Additional styles specific to about page */
+        .about-hero {
+            background: linear-gradient(135deg, #4F46E5 0%, #7C73E6 100%);
+            color: white;
+            padding: 100px 0 80px;
+            text-align: center;
+        }
+
+        .about-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+        }
+
+        .about-hero p {
+            font-size: 1.25rem;
+            max-width: 800px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+
+        .about-content {
+            padding: 80px 0;
+        }
+
+        .about-section {
+            margin-bottom: 60px;
+        }
+
+        .about-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .about-section h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: #1F2937;
+        }
+
+        .about-section p {
+            font-size: 1.125rem;
+            line-height: 1.7;
+            color: #4B5563;
+            margin-bottom: 1.5rem;
+        }
+
+        .about-section p:last-child {
+            margin-bottom: 0;
+        }
+
+        .mission-section {
+            background-color: #F9FAFB;
+            padding: 80px 0;
+            border-radius: 12px;
+            margin-top: 40px;
+        }
+
+        .mission-section h2 {
+            text-align: center;
+            color: #4F46E5;
+            margin-bottom: 2rem;
+        }
+
+        .mission-statement {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.25rem;
+            line-height: 1.8;
+            color: #4B5563;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 60px;
+        }
+
+        .value-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .value-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .value-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #4F46E5;
+        }
+
+        .value-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #1F2937;
+        }
+
+        .value-card p {
+            font-size: 1rem;
+            color: #6B7280;
+        }
+
+        @media (max-width: 768px) {
+            .about-hero {
+                padding: 80px 0 60px;
+            }
+
+            .about-hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .about-hero p {
+                font-size: 1.125rem;
+            }
+
+            .about-content {
+                padding: 60px 0;
+            }
+
+            .about-section h2 {
+                font-size: 1.75rem;
+            }
+
+            .values-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html" style="text-decoration: none; color: inherit;">
+                        <h1>∞ InfinityQR URL</h1>
+                    </a>
+                </div>
+
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link active">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#dashboard" class="nav-link">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <button id="loginBtn" class="btn btn-secondary">Login</button>
+                    </li>
+                    <li class="nav-item">
+                        <button id="signupBtn" class="btn btn-primary">Sign Up</button>
+                    </li>
+                </ul>
+
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="about-hero">
+            <div class="container">
+                <h1>About Us: Your All-in-One Link Management Platform</h1>
+                <p>Simplifying digital sharing with powerful QR code generation and URL shortening tools</p>
+            </div>
+        </section>
+
+        <!-- About Content -->
+        <section class="about-content">
+            <div class="container">
+                <div class="about-section">
+                    <p>This platform began with a simple goal: to simplify how people share information online. Recognizing the need for both compact links and scannable codes, the platform evolved into a comprehensive toolkit, offering a top-tier QR code generator and a robust URL shortener.</p>
+                </div>
+
+                <div class="about-section">
+                    <h2>Our QR Code Generator</h2>
+                    <p>The QR code creator allows anyone to create a QR code for anything—a website, a vCard, a Wi-Fi password, or even a PDF document. Users can generate a QR code that is static or dynamic, and even design a custom QR code with a logo or unique shapes. It's the best QR code maker for both business cards and marketing materials.</p>
+                </div>
+
+                <div class="about-section">
+                    <h2>Our URL Shortener</h2>
+                    <p>Simultaneously, the URL shortener service solves the problem of unwieldy links. It's not just a basic link shortener; it's a custom URL shortener that builds brand recognition with every shortened link. From a simple Bitly alternative to a sophisticated branded link system, it provides the tools for effective link management.</p>
+                </div>
+
+                <div class="mission-section">
+                    <div class="container">
+                        <h2>Our Mission</h2>
+                        <p class="mission-statement">The mission is to empower users with friendly, accessible tools that make digital sharing seamless, trackable, and professional.</p>
+                    </div>
+                </div>
+
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="value-icon">🚀</div>
+                        <h3>Innovation</h3>
+                        <p>Continuously improving our tools to provide the most advanced QR code generation and URL shortening capabilities.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">🤝</div>
+                        <h3>Accessibility</h3>
+                        <p>Making powerful digital tools available to everyone, regardless of technical expertise or budget constraints.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">🔒</div>
+                        <h3>Reliability</h3>
+                        <p>Providing a stable, secure platform that users can depend on for their important digital sharing needs.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>InfinityQR URL</h3>
+                    <p>Professional URL shortening and QR code generation for modern businesses.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="index.html#url-shortener">URL Shortener</a></li>
+                        <li><a href="index.html#qr-generator">QR Generator</a></li>
+                        <li><a href="index.html#dashboard">Dashboard</a></li>
+                        <li><a href="index.html#api">API</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter">𝕏</a>
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="GitHub">⚡</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 InfinityQR URL. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2>Login to Your Account</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" required>
+                </div>
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="rememberMe">
+                        <span class="checkmark"></span>
+                        Remember me
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Login</button>
+                <p class="auth-switch">
+                    Don't have an account? <a href="#" id="showSignup">Sign up</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2>Create Your Account</h2>
+            <form id="signupForm">
+                <div class="form-group">
+                    <label for="signupName">Full Name</label>
+                    <input type="text" id="signupName" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupEmail">Email</label>
+                    <input type="email" id="signupEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupPassword">Password</label>
+                    <input type="password" id="signupPassword" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Sign Up</button>
+                <p class="auth-switch">
+                    Already have an account? <a href="#" id="showLogin">Login</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="js/data-manager.js"></script>
+    <script src="js/auth-redirect.js"></script>
+    <script src="js/debug-fix.js"></script>
+
+    <script>
+        // Navigation toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const navToggle = document.querySelector('.nav-toggle');
+            const navMenu = document.querySelector('.nav-menu');
+            
+            if (navToggle) {
+                navToggle.addEventListener('click', function() {
+                    navMenu.classList.toggle('active');
+                });
+            }
+            
+            // Modal functionality
+            const loginBtn = document.getElementById('loginBtn');
+            const signupBtn = document.getElementById('signupBtn');
+            const loginModal = document.getElementById('loginModal');
+            const signupModal = document.getElementById('signupModal');
+            const modalCloses = document.querySelectorAll('.modal-close');
+            const showSignup = document.getElementById('showSignup');
+            const showLogin = document.getElementById('showLogin');
+            
+            if (loginBtn) {
+                loginBtn.addEventListener('click', function() {
+                    loginModal.style.display = 'block';
+                });
+            }
+            
+            if (signupBtn) {
+                signupBtn.addEventListener('click', function() {
+                    signupModal.style.display = 'block';
+                });
+            }
+            
+            modalCloses.forEach(closeBtn => {
+                closeBtn.addEventListener('click', function() {
+                    loginModal.style.display = 'none';
+                    signupModal.style.display = 'none';
+                });
+            });
+            
+            if (showSignup) {
+                showSignup.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    loginModal.style.display = 'none';
+                    signupModal.style.display = 'block';
+                });
+            }
+            
+            if (showLogin) {
+                showLogin.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    signupModal.style.display = 'none';
+                    loginModal.style.display = 'block';
+                });
+            }
+            
+            // Close modal when clicking outside
+            window.addEventListener('click', function(e) {
+                if (e.target === loginModal) {
+                    loginModal.style.display = 'none';
+                }
+                if (e.target === signupModal) {
+                    signupModal.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
