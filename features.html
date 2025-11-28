@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Powerful Features for QR Codes & URL Shortening | InfinityQR URL</title>
+    <meta name="description" content="Discover InfinityQR URL's powerful features for QR code generation and URL shortening. Free QR codes, dynamic QR codes, custom URL shortener, analytics, and more.">
+    <meta name="keywords" content="QR code features, URL shortener features, free QR code generator, dynamic QR codes, custom URL shortener, link management, QR code with logo, bulk URL shortener">
+    <meta name="author" content="InfinityQR URL">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#4F46E5">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.infinityqrurl.com/features/">
+    <meta property="og:title" content="Powerful Features for QR Codes & URL Shortening | InfinityQR URL">
+    <meta property="og:description" content="Discover InfinityQR URL's powerful features for QR code generation and URL shortening.">
+    <meta property="og:image" content="https://www.infinityqrurl.com/assets/images/og-image.jpg">
+
+    <!-- Twitter / X -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.infinityqrurl.com/features/">
+    <meta property="twitter:title" content="Powerful Features for QR Codes & URL Shortening | InfinityQR URL">
+    <meta property="twitter:description" content="Discover InfinityQR URL's powerful features for QR code generation and URL shortening.">
+    <meta property="twitter:image" content="https://www.infinityqrurl.com/assets/images/og-image.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.infinityqrurl.com/features/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>∞</text></svg>">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Additional styles specific to features page */
+        .features-hero {
+            background: linear-gradient(135deg, #4F46E5 0%, #7C73E6 100%);
+            color: white;
+            padding: 100px 0 80px;
+            text-align: center;
+        }
+
+        .features-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+        }
+
+        .features-hero p {
+            font-size: 1.25rem;
+            max-width: 800px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+
+        .features-content {
+            padding: 80px 0;
+        }
+
+        .features-section {
+            margin-bottom: 80px;
+        }
+
+        .features-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .features-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #1F2937;
+            text-align: center;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            padding: 40px 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid #E5E7EB;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            color: #4F46E5;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #1F2937;
+        }
+
+        .feature-card p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #4B5563;
+            margin-bottom: 0;
+        }
+
+        .section-highlight {
+            background: #F9FAFB;
+            padding: 40px;
+            border-radius: 12px;
+            margin-top: 40px;
+        }
+
+        .section-highlight h4 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            color: #1F2937;
+        }
+
+        .highlight-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .highlight-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #E5E7EB;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .highlight-list li:last-child {
+            border-bottom: none;
+        }
+
+        .highlight-list li::before {
+            content: "✓";
+            color: #10B981;
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 1.25rem;
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, #4F46E5 0%, #7C73E6 100%);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+            border-radius: 12px;
+            margin-top: 60px;
+        }
+
+        .cta-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: white;
+        }
+
+        .cta-section p {
+            font-size: 1.25rem;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 768px) {
+            .features-hero {
+                padding: 80px 0 60px;
+            }
+
+            .features-hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .features-hero p {
+                font-size: 1.125rem;
+            }
+
+            .features-content {
+                padding: 60px 0;
+            }
+
+            .features-section h2 {
+                font-size: 2rem;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .feature-card {
+                padding: 30px 20px;
+            }
+
+            .cta-section {
+                padding: 60px 20px;
+            }
+
+            .cta-section h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html" style="text-decoration: none; color: inherit;">
+                        <h1>∞ InfinityQR URL</h1>
+                    </a>
+                </div>
+
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="features.html" class="nav-link active">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#dashboard" class="nav-link">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="faq.html" class="nav-link">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="tutorial.html" class="nav-link">Tutorials</a>
+                    </li>
+                    <li class="nav-item">
+                        <button id="loginBtn" class="btn btn-secondary">Login</button>
+                    </li>
+                    <li class="nav-item">
+                        <button id="signupBtn" class="btn btn-primary">Sign Up</button>
+                    </li>
+                </ul>
+
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="features-hero">
+            <div class="container">
+                <h1>Powerful Features for QR Codes & URL Shortening</h1>
+                <p>Discover all the tools you need to create professional QR codes and manage your links effectively</p>
+            </div>
+        </section>
+
+        <!-- Features Content -->
+        <section class="features-content">
+            <div class="container">
+                <!-- QR Code Generator Features -->
+                <div class="features-section">
+                    <h2>QR Code Generator Features</h2>
+                    
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">🆓</div>
+                            <h3>Free QR Code Generation</h3>
+                            <p>Instantly create a free QR code for any purpose without limitations. Generate as many QR codes as you need for personal or business use.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">🔄</div>
+                            <h3>Dynamic QR Codes</h3>
+                            <p>Edit the destination of your dynamic QR code anytime without reprinting. Perfect for marketing campaigns where URLs might change.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">🎨</div>
+                            <h3>Custom QR Code Maker</h3>
+                            <p>Design a personalised QR code with your logo, brand colors, and unique design. Create QR codes that match your brand identity perfectly.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">🖼️</div>
+                            <h3>High-Resolution Output</h3>
+                            <p>Download your QR code in PNG format with a transparent background for professional print. Ensure crisp, clear scanning every time.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">📱</div>
+                            <h3>Versatile Types</h3>
+                            <p>Generate QR codes for URLs, Wi-Fi, vCards, and more. Support for multiple content types makes our generator suitable for any use case.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">📊</div>
+                            <h3>Scan Analytics</h3>
+                            <p>Track QR code performance with detailed analytics. Monitor scan locations, devices, and timestamps to understand your audience.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="section-highlight">
+                        <h4>Additional QR Code Capabilities</h4>
+                        <ul class="highlight-list">
+                            <li>Batch QR code generation for multiple links at once</li>
+                            <li>Error correction to ensure scannability even when damaged</li>
+                            <li>Multiple format exports (PNG, SVG, JPG)</li>
+                            <li>Custom sizing options for different applications</li>
+                            <li>Frame and text additions for better user guidance</li>
+                            <li>QR code testing tool to verify scannability</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- URL Shortener Features -->
+                <div class="features-section">
+                    <h2>URL Shortener Features</h2>
+                    
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">🔗</div>
+                            <h3>Free Link Shortener</h3>
+                            <p>A reliable free url shortener for quick and easy link shortening. No hidden costs or limitations on the number of links you can create.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">🏷️</div>
+                            <h3>Custom URL Shortener</h3>
+                            <p>Build brand trust with a custom url shortener that uses your domain. Create memorable, branded links that reinforce your identity.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">📈</div>
+                            <h3>Link Management Dashboard</h3>
+                            <p>Track clicks, geographic location, and referral sources for every shortened link. Gain valuable insights into your audience behavior.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">⚡</div>
+                            <h3>Bulk Shortener</h3>
+                            <p>Save time by shortening multiple URLs at once with the bulk url shortener. Perfect for large campaigns or migrating from other services.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">🛡️</div>
+                            <h3>Safe and Reliable</h3>
+                            <p>A secure url shortener service that ensures your links are always active. No link expiration means your shortened URLs work forever.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">🔒</div>
+                            <h3>Password Protection</h3>
+                            <p>Add an extra layer of security with password-protected links. Control who can access your content with customizable permissions.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="section-highlight">
+                        <h4>Additional URL Shortener Capabilities</h4>
+                        <ul class="highlight-list">
+                            <li>Link expiration settings for time-sensitive content</li>
+                            <li>UTM parameter support for enhanced analytics tracking</li>
+                            <li>API access for developers and automated workflows</li>
+                            <li>QR code integration for every shortened URL</li>
+                            <li>Custom alias creation for memorable short links</li>
+                            <li>Link preview customization for social sharing</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Platform Features -->
+                <div class="features-section">
+                    <h2>Platform Features</h2>
+                    
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">🌐</div>
+                            <h3>Cross-Platform Compatibility</h3>
+                            <p>Access our tools from any device with a responsive web interface. Create and manage QR codes and short URLs on desktop, tablet, or mobile.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">🚀</div>
+                            <h3>High Performance</h3>
+                            <p>Lightning-fast processing with our optimized infrastructure. Generate QR codes and shorten URLs in milliseconds, not minutes.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">🔐</div>
+                            <h3>Enterprise Security</h3>
+                            <p>Bank-level security with encrypted connections and secure data handling. Your data and links are protected with industry-best practices.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">🔄</div>
+                            <h3>Automatic Backups</h3>
+                            <p>Never lose your QR codes or shortened links with our automatic backup system. Your data is securely stored and easily accessible.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cta-section">
+                    <h2>Ready to Experience These Features?</h2>
+                    <p>Start creating professional QR codes and shortening URLs with our powerful, feature-rich platform.</p>
+                    <div class="cta-buttons">
+                        <a href="index.html#qr-generator" class="btn btn-light">Create QR Code</a>
+                        <a href="index.html#url-shortener" class="btn btn-outline-light">Shorten URL</a>
+                        <a href="index.html" class="btn btn-outline-light">View All Tools</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>InfinityQR URL</h3>
+                    <p>Professional URL shortening and QR code generation for modern businesses.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="index.html#url-shortener">URL Shortener</a></li>
+                        <li><a href="index.html#qr-generator">QR Generator</a></li>
+                        <li><a href="index.html#dashboard">Dashboard</a></li>
+                        <li><a href="index.html#api">API</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="tutorial.html">Tutorials</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#support">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 InfinityQR URL. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2>Login to Your Account</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" required>
+                </div>
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="rememberMe">
+                        <span class="checkmark"></span>
+                        Remember me
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Login</button>
+                <p class="auth-switch">
+                    Don't have an account? <a href="#" id="showSignup">Sign up</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2>Create Your Account</h2>
+            <form id="signupForm">
+                <div class="form-group">
+                    <label for="signupName">Full Name</label>
+                    <input type="text" id="signupName" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupEmail">Email</label>
+                    <input type="email" id="signupEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupPassword">Password</label>
+                    <input type="password" id="signupPassword" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Sign Up</button>
+                <p class="auth-switch">
+                    Already have an account? <a href="#" id="showLogin">Login</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="js/data-manager.js"></script>
+    <script src="js/auth-redirect.js"></script>
+    <script src="js/debug-fix.js"></script>
+
+    <script>
+        // Navigation toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const navToggle = document.querySelector('.nav-toggle');
+            const navMenu = document.querySelector('.nav-menu');
+            
+            if (navToggle) {
+                navToggle.addEventListener('click', function() {
+                    navMenu.classList.toggle('active');
+                });
+            }
+            
+            // Modal functionality
+            const loginBtn = document.getElementById('loginBtn');
+            const signupBtn = document.getElementById('signupBtn');
+            const loginModal = document.getElementById('loginModal');
+            const signupModal = document.getElementById('signupModal');
+            const modalCloses = document.querySelectorAll('.modal-close');
+            const showSignup = document.getElementById('showSignup');
+            const showLogin = document.getElementById('showLogin');
+            
+            if (loginBtn) {
+                loginBtn.addEventListener('click', function() {
+                    loginModal.style.display = 'block';
+                });
+            }
+            
+            if (signupBtn) {
+                signupBtn.addEventListener('click', function() {
+                    signupModal.style.display = 'block';
+                });
+            }
+            
+            modalCloses.forEach(closeBtn => {
+                closeBtn.addEventListener('click', function() {
+                    loginModal.style.display = 'none';
+                    signupModal.style.display = 'none';
+                });
+            });
+            
+            if (showSignup) {
+                showSignup.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    loginModal.style.display = 'none';
+                    signupModal.style.display = 'block';
+                });
+            }
+            
+            if (showLogin) {
+                showLogin.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    signupModal.style.display = 'none';
+                    loginModal.style.display = 'block';
+                });
+            }
+            
+            // Close modal when clicking outside
+            window.addEventListener('click', function(e) {
+                if (e.target === loginModal) {
+                    loginModal.style.display = 'none';
+                }
+                if (e.target === signupModal) {
+                    signupModal.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
